@@ -38,7 +38,59 @@ body{
   color: Ivory;
 }
 nav{
+float: left;
+ background-color: black;
+ width: 25%;
+ height: 100%;
+ padding: 10px;
+ text-align: center;
+}
+img{
 	float: left;
-	height: 100%;
-	width: 18%;
+	width: 100%;
+	height:auto;
+}
+ul{
+ width: 100%;	
+}
+li{
+list-style-type:none;
+padding: 0;
+
+}
+#snake{
+	background-color: black;
+	height: 100px;	
+}
+#rex{
+	background-image: url("starfield.jpg");
+	repeat: none;
+	height:100%;
+}
+p{
+	font-size: 14px;
+	color:white;
+}
+h1{
+	color:white;
+}
+footer{
+	color:white;
+}
+a{
+     color: cyan;
+}
+#fact{
+	color:white;
+}
+.image2{
+	width: 200px;
+    height: auto;
+	float:left;
+	padding-top: 3px;
+}
+.image3{
+	float:right;
+	width: 200px;
+	height: 200px;
 }
